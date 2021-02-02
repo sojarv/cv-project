@@ -1,38 +1,141 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #556F7A;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
 .App {
-  text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    min-height: 300px;
+    min-width: 400px;
+    padding: 15px;
+    background-color: #EFF1F3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    margin: 0;
+    font-size: 3em;
+    margin-right: 10px;
+    color: #2E6171
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h2 {
+    width: 50%;
+    padding: 7px;
+    margin-right: 10px;
+    border: black 1px solid;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#nameInput {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+svg {
+    font-size: 1.3em;
+    margin-left: 10px;
+    color: #556F7A;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add,
+.edit,
+.done {
+    float: right;
+}
+
+#about>p,
+.textarea {
+    width: 85%;
+    max-width: 85%;
+    min-width: 85%;
+    margin-block-start: 0;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
+div {
+    padding: 10px
+}
+
+#personalInfo {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    min-height: 120px;
+}
+
+#contact {
+    width: 50%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+ul,
+ol {
+    padding-inline-start: 0px;
+}
+
+#contact>p {
+    width: 90%;
+    margin-block-start: 0;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+h3 {
+    margin: 0;
+    color: #798086;
+}
+
+hr {
+    color: #556F7A
+}
+
+input {
+    background-color: #EFF1F3;
+    padding: 5px;
+    border: 1px solid #556F7A;
+}
+
+#contact>input {
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+#nameInput>input {}
+
+#education>input,
+#skils>input,
+#experience>input {
+    margin-right: 10px;
+}
+
+li>p {
+    width: 25%;
+}
+
+.pYears {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#skills li {
+    display: inline-flex;
+    margin-right: 10px;
 }
